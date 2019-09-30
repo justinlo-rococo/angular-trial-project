@@ -1,0 +1,33 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  width:90vw;
+  grid-gap:2px;
+  
+
+}
+
+.answer-container p{
+  box-sizing: border-box;
+  margin:10px;
+  margin-top:20px;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align:right;
+  padding:10px;
+}
+
+button{
+  box-sizing: border-box;
+  width:100%;
+  line-height: 15vh;
+  
+  /* border-radius:50%; */  
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
